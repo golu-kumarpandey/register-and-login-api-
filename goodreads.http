@@ -1,0 +1,47 @@
+###
+
+POST http://localhost:3001/users/
+Content-Type: application/json
+
+{   
+    "name":"rahul",
+    "username":"rahul123",
+    "password": "rahul@456",
+    "gender": "Male",
+    "location":"hyderabad"
+}
+
+
+###
+
+POST http://localhost:3001/login/
+Content-Type: application/json
+
+{
+    "username":"rahul123",
+    "password": "rahul@456"
+} 
+
+### 
+get http://localhost:3001/books/ 
+
+### 
+Post http://localhost:3001/users/
+Content-Type: application/json
+
+{
+    "username": "golu kumar pandey",
+    "name": "Vinod N",
+    "password": "Abcd#1122",
+    "gender": "Male",
+    "location": "Hyderabad"
+  }
+
+###
+post http://localhost:3001/logins 
+Content-Type: application/json
+
+{
+    "username": "golu",
+    "password":"Abcd@1122"
+}
